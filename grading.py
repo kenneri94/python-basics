@@ -1,15 +1,16 @@
-
-score = int(input("Enter the score: "))
-
-#if statement
+score = int(input("Enter your score: "))
 
 if score >= 90:
-    print('A')
-elif 89 >= score <= 80:
-    print('A-')
-elif 79 >= score <= 70:
-    print('B+')
-elif 69 >= score <= 60:
-    print('B')
+    print("Your score is: A")
+elif 80<= score >=89:
+    print("Your score is: A-")
+elif 70<= score >=79:
+    print("Your score is: B+")
+elif 60<= score >=69:
+    print("Your score is: B")
+elif 50<= score >=59:
+    print("Your score is: B-")
+elif 40<= score >=49:
+    print("Your score is: C")
 else:
-    print('below average')
+    print("Your score is: D")
