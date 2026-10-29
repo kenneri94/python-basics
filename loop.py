@@ -35,4 +35,9 @@ for s in students:
 
 avg = total/len(students)
 
-print(avg)
+# print(avg)
+
+
+age_sorted = sorted(students, key=lambda s:s["age"])
+for student in age_sorted:
+        print(student)
