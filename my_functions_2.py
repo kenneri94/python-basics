@@ -48,3 +48,6 @@ sa , v = cylinder(7, 15)
 divider = lambda x, y: x/y
 
 area_circle = lambda r: 22/7 * r **2
+
+# TO DO functions as a parameter
+
